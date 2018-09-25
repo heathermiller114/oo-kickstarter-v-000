@@ -11,7 +11,6 @@ class Backer
     @backed_projects << project
     project.add_backer = self unless project.add_backer.include?(self)
   end
-  end
 
 
 end
